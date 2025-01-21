@@ -91,6 +91,8 @@ ul li{
 
 .Standard-Curriculum{
   background-image: url(./images/bg.png);
+  background-repeat: no-repeat;
+  padding: 60px 0;
 }
 
 
@@ -148,37 +150,57 @@ ul li{
 /* our stories style */
 
 .our-stories{
+  margin: 0;
+  padding: 60px 0;
   background-image: url(./images/bg.png);
-  background-image: linear-gradient( to bottom, hsl(60, 86%, 94%),#fdfde0);
-
+  background-repeat: no-repeat;
+  background: linear-gradient( to bottom, hsl(161, 71%, 64%),#5a4a16);
 }
-
-.os-heading{
+.OS-heading{
   text-align: center;
-  margin: 50px 0;
+  margin: 30px;
 }
 
-.card-row{
+.picture-cards{
   display: flex;
   gap: 20px;
 }
 
+.single-photo img{
+  width: 100%;
+  border-radius: 10px;
+}
 
+.square-photos{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 
-.view-btn{
-  color: white;
-  background-color: black;
-  padding: 8px 30px;
+}
+
+.square-photos div img{
+  border-radius: 10px;
+}
+
+.square-photos > div{
+  box-shadow: 0.5px 0.5px 1px 0;
   border-radius: 10px;
   border: none;
-  align-items: center;
-  margin-top: 50px;
+  background-color: white;
 }
 
-.view{
-  text-align: center;
+
+.heading-text{
+margin: 50px 0;
+padding: 20px;
 }
 
+
+.card-2nd{
+box-shadow: 0.5px 0.5px 1px 0;
+border-radius: 10px;
+background-color: white;
+}
 
 /* footer style */
 

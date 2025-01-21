@@ -26,10 +26,9 @@ display: flex;
 align-items: center;
 }
 
-ul{
-  width: 400px;
-  display: flex;
-  justify-content: space-between;
+ul li{
+  display: inline;
+  margin-left: 30px;
   list-style: none;
 }
 
@@ -108,8 +107,9 @@ ul{
 .card{
   margin: 20px;
   text-align: center;
-  box-shadow: 2px 5px 10px;
+  box-shadow: 0.5px 0.5px 1px 0;
   padding: 20px;
+  border: none;
   border-radius: 10px;
 }
 
@@ -186,23 +186,38 @@ display: flex;
 
 
 footer{
-  background-color: #81ecec;
+  background-color: #2bcbba;
+  color: white;
+  margin-top: 30px;
 }
 
+.footer-logo{
+  max-width: 30%;
+}
+
+.last-logo{
+  display: flex;
+  align-items: center;
+  text-align: left;
+  width: 20%;
+}
+
+.last-para{
+  text-align: left;
+  margin-top: 20px;
+}
 
 .footer-section{
-  padding: 100px;
+  padding: 50px;
   display: flex;
   justify-content: space-between;
-  gap: 300px;
-  text-align: center;
 }
-
 
 
 .list-item li{
   list-style: none;
   margin-top: 20px;
+  align-items: center;
 }
 
 .social{

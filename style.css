@@ -30,6 +30,7 @@ ul li{
   display: inline;
   margin-left: 30px;
   list-style: none;
+  align-items: center;
 }
 
 .contact-btn{
@@ -92,19 +93,21 @@ ul li{
   background-image: url(./images/bg.png);
 }
 
+
 .SC-heading{
   text-align: center;
   margin-top: 30px;
 }
 
 .all-cards{
+  width: 100%;
+  height: 90vh;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
   margin-top: 40px;
 }
 
 .card{
+  background: linear-gradient( to bottom, hsl(161, 76%, 95%),#f8f5eb);
   margin: 20px;
   text-align: center;
   box-shadow: 0.5px 0.5px 1px 0;
@@ -113,8 +116,9 @@ ul li{
   border-radius: 10px;
 }
 
+
 .card-heading{
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .para-2{
@@ -123,6 +127,7 @@ ul li{
 
 .read-more{
   text-decoration: none;
+  margin-top: 50px;
 }
 
 
@@ -144,28 +149,20 @@ ul li{
 
 .our-stories{
   background-image: url(./images/bg.png);
+  background-image: linear-gradient( to bottom, hsl(60, 86%, 94%),#fdfde0);
+
 }
 
 .os-heading{
   text-align: center;
-  margin-top: 50px;
+  margin: 50px 0;
 }
 
 .card-row{
   display: flex;
-  justify-content: space-between;
-  margin-top: 30px;
-  text-align: center;
+  gap: 20px;
 }
 
-
-.card-4 img{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-.card-last{
-display: flex;
-}
 
 
 .view-btn{
@@ -175,6 +172,7 @@ display: flex;
   border-radius: 10px;
   border: none;
   align-items: center;
+  margin-top: 50px;
 }
 
 .view{

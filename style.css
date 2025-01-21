@@ -20,6 +20,14 @@ nav{
   align-items: center;
 }
 
+hr{
+  height: 2px;
+  border-width: 0;
+  margin-top: 10px;
+  background-color:rgb(245, 202, 63);
+  display: none;
+}
+
 .logo{
 display: flex;
 align-items: center;
@@ -30,6 +38,24 @@ ul li{
   margin-left: 30px;
   list-style: none;
   align-items: center;
+}
+
+.bar-btn{
+  display: none;
+}
+
+.child:nth-child(1){
+  color: orange;
+}
+
+.child:nth-child(2){
+  color: #079992;
+}
+.child:nth-child(3){
+  color: #0fbcf9;
+}
+.child:nth-child(4){
+  color: #f53b57;
 }
 
 .contact-btn{
@@ -77,7 +103,7 @@ ul li{
 }
 
 .enroll{
-  background-color: black;
+  background-color: #ff4757;
   color: white;
   margin-top: 10px;
   padding: 8px 30px;
@@ -104,6 +130,7 @@ ul li{
   width: 100%;
   display: flex;
   margin-top: 40px;
+  gap: 30px;
 }
 
 .card{
@@ -137,8 +164,22 @@ ul li{
 }
 
 .read-more{
-  text-decoration: none;
   margin-top: 50px;
+}
+
+.read-more a{
+  text-decoration: none;
+}
+
+
+.read-1{
+  color: #182C61;
+}
+.read-2{
+  color: #b71540;
+}
+.read-3{
+  color: #079992;
 }
 
 
@@ -205,7 +246,7 @@ ul li{
 
 
 .heading-text{
-margin: 50px 0;
+margin: 30px 0;
 padding: 20px;
 }
 
@@ -333,16 +374,42 @@ footer{
 
 @media screen and (max-width: 576px) {
 
+  nav{
+    display: flex;
+    justify-content: space-between;
+  }
+
   ul li{
     display: none;
+  }
+  
+
+  .contact-btn{
+    display: none;
+  }
+
+  .bar-btn{
+    display: block;
+    float: right;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  hr{
+    display: block;
   }
 
   .container{
     flex-direction: column;
   }
 
+
   .all-cards{
     flex-direction: column;
+  }
+
+  .arrow-btn{
+    display: none;
   }
 
   .picture-cards{

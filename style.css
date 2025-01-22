@@ -49,6 +49,10 @@ ul li a{
   text-decoration: none;
 }
 
+li a:hover{
+  color: #4834d4;
+}
+
 
 
 .bar-btn{
@@ -75,6 +79,11 @@ ul li a{
   border-radius: 10px;
   color: white;
   background-color: orange;
+}
+
+.contact-btn:hover{
+  background-color: #1abc9c;
+  cursor: pointer;
 }
 
 
@@ -126,6 +135,11 @@ ul li a{
   padding: 8px 30px;
   border: none;
   border-radius: 10px;
+}
+
+.enroll:hover{
+  background-color: #130f40;
+  cursor: pointer;
 }
 
 
@@ -202,6 +216,11 @@ ul li a{
 
 .arrow-btn{
   text-align: center;
+}
+
+.arrow:hover{
+  background-color: #00b894;
+  cursor: pointer;
 }
 
 .arrow{
@@ -345,6 +364,11 @@ background-color: white;
   color: white;
   font-weight: bold;
   margin-top: 20px;
+}
+
+.view-btn:hover{
+  background-color: #e67e22;
+  cursor: pointer;
 }
 
 

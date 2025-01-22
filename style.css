@@ -208,7 +208,7 @@ ul li{
 .our-stories{
   margin: 0;
   padding: 60px 0;
-  background: url(/images/bg.png), linear-gradient( to bottom, rgb(233, 252, 244),rgb(229, 252, 173));
+  background: url(./images/bg.png), linear-gradient( to bottom, rgb(233, 252, 244),rgb(229, 252, 173));
   background-repeat: no-repeat;
 }
 .OS-heading{

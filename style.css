@@ -223,7 +223,15 @@ ul li{
 
 .single-photo img{
   width: 100%;
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
+}
+
+.single-photo{
+  border-radius: 50px;
+}
+
+.card-2nd{
+  border-radius: 50px;
 }
 
 .card-2nd p{
@@ -238,7 +246,7 @@ ul li{
 }
 
 .square-photos div img{
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
   width: 100%;
 }
 

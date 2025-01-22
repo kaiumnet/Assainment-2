@@ -76,7 +76,7 @@ ul li{
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  margin: 20px 40px;
+  margin: 0;
 }
 
 
@@ -85,10 +85,15 @@ ul li{
   max-width: 35%;
 }
 
+.hero-kids{
+  width: 100%;
+  align-items: center;
+}
+
 
 .students-vision{
   align-items: center;
-
+  width: auto;
 }
 
 .span-1{
@@ -400,7 +405,31 @@ footer{
   }
 
   .container{
-    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+
+
+  .hero-kids{
+    width: 100%;
+    align-items: center;
+  }
+
+  .hero-kids img{
+   width: 100%;
+  }
+
+  .students-vision{
+    text-align: center;
+    width: auto;
+  }
+
+  .hedding{
+    max-width: 100%;
+    font-size: 40px;
+  }
+
+  .para-1{
+    max-width: 100%;
   }
 
 

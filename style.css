@@ -33,7 +33,15 @@ display: flex;
 align-items: center;
 }
 
-.nav-link a{
+ul li{
+  display: inline;
+  margin-left: 30px;
+  list-style: none;
+  align-items: center;
+
+}
+
+ul li a{
   display: inline;
   margin-left: 30px;
   list-style: none;
@@ -41,21 +49,23 @@ align-items: center;
   text-decoration: none;
 }
 
+
+
 .bar-btn{
   display: none;
 }
 
-.child:nth-child(1){
+.Home{
   color: orange;
 }
 
-.child:nth-child(2){
+.About{
   color: #079992;
 }
-.child:nth-child(3){
+.Facilities{
   color: #0fbcf9;
 }
-.child:nth-child(4){
+.Admission{
   color: #f53b57;
 }
 
@@ -252,6 +262,7 @@ align-items: center;
 }
 
 .square-photos > div{
+  box-shadow: 0.5px 0.5px 1px 0;
   border-radius: 10px;
   border: none;
   background-color: white;
@@ -393,14 +404,10 @@ footer{
   nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
-  .nav-logo{
-    display: flex;
-    margin: 0;
-  }
-
-  .nav-link a{
+  ul li a{
     display: none;
   }
   
@@ -409,10 +416,8 @@ footer{
     display: none;
   }
 
-
   .bar-btn{
     display: block;
-    justify-content: space-between;
   }
 
   hr{

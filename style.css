@@ -281,7 +281,6 @@ li a:hover{
 }
 
 .square-photos > div{
-  box-shadow: 0.5px 0.5px 1px 0;
   border-radius: 10px;
   border: none;
   background-color: white;

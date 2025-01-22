@@ -86,8 +86,7 @@ ul li{
 }
 
 .hero-kids{
-  width: 100%;
-  align-items: center;
+  width: 50%;
 }
 
 
@@ -425,7 +424,7 @@ footer{
 
   .hedding{
     max-width: 100%;
-    font-size: 40px;
+    font-size: 60px;
   }
 
   .para-1{
@@ -452,6 +451,7 @@ footer{
   .square-photos{
     grid-template-columns: repeat(2 1fr);
   }
+
 
   .footer-section{
     flex-direction: column;

@@ -33,11 +33,12 @@ display: flex;
 align-items: center;
 }
 
-ul li{
+.nav-link a{
   display: inline;
   margin-left: 30px;
   list-style: none;
   align-items: center;
+  text-decoration: none;
 }
 
 .bar-btn{
@@ -394,7 +395,12 @@ footer{
     justify-content: space-between;
   }
 
-  ul li{
+  .nav-logo{
+    display: flex;
+    margin: 0;
+  }
+
+  .nav-link a{
     display: none;
   }
   
@@ -403,11 +409,10 @@ footer{
     display: none;
   }
 
+
   .bar-btn{
     display: block;
-    float: right;
     justify-content: space-between;
-    align-items: center;
   }
 
   hr{

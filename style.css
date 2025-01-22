@@ -81,12 +81,13 @@ ul li{
 
 
 .hedding{
-  font-weight: bold;
-  max-width: 35%;
+  font-size: 40px;
+  max-width: 50%;
 }
 
-.hero-kids{
-  width: 50%;
+.hero-kids img{
+  height: 480px;
+  width: 380px;
 }
 
 
@@ -341,22 +342,23 @@ footer{
   padding: 50px;
   display: flex;
   justify-content: space-between;
+  width: auto;
 }
 
 .footer-logo{
-  max-width: 30%;
+  width: 30%;
 }
 
 .last-logo{
   display: flex;
   align-items: center;
-  text-align: left;
-  width: 20%;
+  font-size: 28px;
 }
 
 .last-para{
   text-align: left;
   margin-top: 20px;
+  width: auto;
 }
 
 
@@ -378,6 +380,8 @@ footer{
 
 @media screen and (max-width: 576px) {
 
+
+  /* nav bar responsive*/
   nav{
     display: flex;
     justify-content: space-between;
@@ -402,6 +406,9 @@ footer{
   hr{
     display: block;
   }
+
+
+  /* hero kids responsive */
 
   .container{
     flex-direction: column-reverse;
@@ -431,6 +438,7 @@ footer{
     max-width: 100%;
   }
 
+  /* standard curriculam responsive */
 
   .all-cards{
     flex-direction: column;
@@ -439,6 +447,8 @@ footer{
   .arrow-btn{
     display: none;
   }
+
+  /* our stories responsive */
 
   .picture-cards{
     flex-direction: column;
@@ -452,11 +462,27 @@ footer{
     grid-template-columns: repeat(2 1fr);
   }
 
+  /* footer section responsive */
 
   .footer-section{
     flex-direction: column;
     gap: 30px;
-    align-items: center;
+ 
   }
+
+  .footer-logo{
+    width: 100%;
+  }
+
+  .last-logo{
+    width: 50%;
+  }
+
+
+  .last-para{
+    width: 100%;
+  }
+  
+
   
 }
